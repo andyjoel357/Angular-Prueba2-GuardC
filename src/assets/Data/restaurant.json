@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "email": "nadie@quien.com",
+      "password": "$2a$10$Tu3OD0IRul0CbDCVgMHWc.sJ9d04XwzmUh0x4y0n8KH3C/ST0k9NO",
+      "rol": "mesero",
+      "id": 1
+    },
+    {
+      "email": "joel@quien.com",
+      "password": "$2a$10$q3mRSgft8.IMoF9pSPN9NuOjiNy6j0scWecQo5dP3kp/pLJ4TKqi6",
+      "rol": "administrador",
+      "id": 2
+    }
+  ],
+  "ordenes": [
+    {
+      "id": 2,
+      "mesa": 5,
+      "producto": "preparado",
+      "total": 15
+    },
+    {
+      "id": 3,
+      "mesa": 2,
+      "producto": "verduras",
+      "total": 25
+    },
+    {
+      "id": "1",
+      "mesa": "12",
+      "producto": "Mariscos",
+      "total": 12
+    }
+  ]
+}

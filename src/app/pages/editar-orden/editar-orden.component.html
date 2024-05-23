@@ -1,0 +1,15 @@
+<form (ngSubmit)="editar(formulario)" #formulario="ngForm">
+    <label>Ingresar ID</label>
+    <input type="text"  name="id" [(ngModel)]="id" class="form-control">
+    
+    <label>Ingresar Mesa</label>
+    <input type="text" name="mesa" [(ngModel)]="mesa" class="form-control">
+    
+    <label>Ingresar Producto</label>
+    <input type="text" name="producto" [(ngModel)]="producto" class="form-control">
+    
+    <label>Total</label>
+    <input type="number" name="total" [(ngModel)]="total" class="form-control">
+    <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+    
